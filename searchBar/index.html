@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <label for="search">Search Persons</label>
+      <input type="text" id="search" data-input />
+    </div>
+    <div class="cards" data-user-cards-container>
+      <template data-card-template>
+        <div class="card">
+          <div class="header" data-header></div>
+          <div class="email" data-email></div>
+        </div>
+      </template>
+    </div>
+  </body>
+</html>
